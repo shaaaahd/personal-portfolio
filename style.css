@@ -160,3 +160,37 @@
 a{
     color: #fff;
 }  
+
+
+
+
+#scroll-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  display: none;
+  border-radius: 5px;
+}
+
+#scroll-top:hover {
+  background-color: #555;
+}
+.skill-container .skill:hover .progress-bar {
+  height: 20px;
+  background-color: #4CAF50; 
+}
+/* Interactive Hover Background for Skills */
+#skills {
+  transition: background 0.3s ease;
+}
+
+/* Hover effect on Skills section */
+#skills:hover {
+  background-color: #B19CD9; /* Baby Purple */
+}
